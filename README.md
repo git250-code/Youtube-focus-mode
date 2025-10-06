@@ -123,5 +123,5 @@ Keep YOUTUBE_API_KEY secret; never include it in frontend code.
 For public/shared deployments consider implementing rate limiting or simple auth to avoid abuse of your API key
 
 
-##License
+## License
 MIT License © 2025
