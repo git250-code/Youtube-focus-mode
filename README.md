@@ -88,25 +88,32 @@ app.get("/api/playlist", async (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`✅ Server running on port ${PORT}`));
-
+```
 
 ## Create .env in project root:
+```
 YOUTUBE_API_KEY=YOUR_YOUTUBE_DATA_API_KEY_HERE
 PORT=3000
-
+```
 ##(IMP) Add .env to .gitignore (never commit your key).
+```
 node_modules/
 .env
 npm-debug.log*
-
+```
 ## Run locally (development)
+```
 cd path/to/youtube-focus-backend
 npm install
+```
 # create .env with YOUTUBE_API_KEY
+```
 node server.js
+```
 # or use nodemon
+```
 npx nodemon server.js
-
+```
 ## Visit: http://localhost:3000/api/playlist?id=PLAYLIST_ID to test.
 
 ## Security & privacy notes
@@ -116,5 +123,5 @@ Keep YOUTUBE_API_KEY secret; never include it in frontend code.
 For public/shared deployments consider implementing rate limiting or simple auth to avoid abuse of your API key
 
 
-License
+##License
 MIT License © 2025
